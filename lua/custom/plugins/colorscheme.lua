@@ -1,10 +1,23 @@
 return {
+  -- nordic theme
+--  {
+--    'AlexvZyl/nordic.nvim',
+--    lazy = false,
+--    priority = 1000,
+--    config = function()
+--        require 'nordic' .load()
+--    end
+--  }
+  --  catppuccin theme
   {
-    'AlexvZyl/nordic.nvim',
-    lazy = false,
+    'catppuccin/nvim',
+    name = 'catppuccin',
     priority = 1000,
     config = function()
-        require 'nordic' .load()
+      require('catppuccin').setup({
+        flavour = 'mocha'
+      })
+      vim.cmd.colorscheme 'catppuccin'
     end
   }
 }
