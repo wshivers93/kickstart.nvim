@@ -99,6 +99,10 @@ require 'options'
 -- [[ Basic Keymaps ]]
 require 'keymaps'
 
+-- [[ Personal config ]]
+-- putting my config in a separate file to avoid merge conflicts
+require 'personal'
+
 -- [[ Install `lazy.nvim` plugin manager ]]
 require 'lazy-bootstrap'
 
