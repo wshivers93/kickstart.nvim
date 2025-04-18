@@ -35,7 +35,8 @@ require('lazy').setup({
 
   require 'kickstart/plugins/cmp',
 
-  require 'kickstart/plugins/tokyonight',
+  -- change made, removed default theme
+  --require 'kickstart/plugins/tokyonight',
 
   require 'kickstart/plugins/todo-comments',
 
