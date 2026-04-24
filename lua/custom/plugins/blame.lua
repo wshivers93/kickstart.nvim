@@ -8,5 +8,6 @@ return {
   keys = {
     { '<leader>gb', '<cmd>BlameToggle<cr>', desc = 'Toggle git blame' },
     { '<leader>gB', '<cmd>BlameToggleWindow<cr>', desc = 'Toggle git blame window' },
+    { '<leader>gc', '<cmd>BlameShowCommit<cr>', desc = 'Show commit details' },
   },
 }
